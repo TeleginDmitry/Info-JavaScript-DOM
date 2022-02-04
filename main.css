@@ -1,0 +1,35 @@
+ul, ol {list-style-type: none;margin: 0;padding: 0;}
+a {text-decoration: none;color: #111;position: relative;}
+
+.contain {
+	display: flex;
+	justify-content: space-around;
+	height: 80px;
+	align-items: center;
+}
+.header__navigator {
+	width: 500px;
+}
+.list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.yellow {
+	color: rgb(197, 7, 255);
+}
+
+li a::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 0;
+	right: 40px;
+	background-color: rgb(248, 232, 0);
+	border-radius: 50%;
+	
+
+}
+
