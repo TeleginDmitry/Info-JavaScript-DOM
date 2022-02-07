@@ -1,5 +1,18 @@
-ul, ol {list-style-type: none;margin: 0;padding: 0;}
-a {text-decoration: none;color: #111;position: relative;}
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .contain {
 	display: flex;
@@ -26,10 +39,86 @@ li a::before {
 	width: 15px;
 	height: 15px;
 	top: 0;
-	right: 40px;
+	left: -20px;
 	background-color: rgb(248, 232, 0);
 	border-radius: 50%;
 	
 
 }
+.button {
+	width: 100px;
+	height: 25px;
+	border: 0px;
+	background-color: rgb(228, 194, 5);
+	
+	font-size: 15px;
+}
+.block {
+	width: 500px;
+	height: 300px;
+	background-color: indianred;
+}
+.block__inner {
+	width: 300px;
+	height: 200px;
+	background-color: gold;
+}
+.block__inner-inner {
+	width: 200px;
+	height: 100px;
+	background-color: rgb(10, 235, 103);
+}
 
+.wrapper {
+	width: 300px;
+	height: 200px;
+	background-color: chartreuse;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.calc__list_ul {
+	display: flex;
+	width: 100px;
+	justify-content: space-around;
+	
+	
+	
+}
+.calc {
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.calc__list {
+	margin-bottom: 20px;
+	
+}
+.lis {
+	display:  inline-block;
+	padding: 10px;
+	
+}
+.love {
+
+}
+
+.input1 {
+	width: 400px;
+	height: 200px;
+	background-color: dimgray;
+	padding-bottom: 170px;
+	font-size: 20px;
+}
+.span1 {
+}
+.max_lenght {
+
+}
